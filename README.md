@@ -11,10 +11,13 @@ All you need is a copy of [gradle](http://gradle.org/)
 Getting Started with Getting Started
 ------------------------------------
 
-* Clone this git repository
-* Go to **module/urn.org.netkernel.helloworld/**
+* Clone this git repository...
 
-* To build this module
+<code>git clone https://github.com/1060NetKernel/getting-started</code>
+
+* Change directory to **module/urn.org.netkernel.helloworld/**
+
+* To build the *urn.org.netkernel.helloworld* module
 
 <code>gradle build</code>
 
