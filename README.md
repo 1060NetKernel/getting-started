@@ -58,6 +58,14 @@ Next Steps with NetKernel
 
 * To start learning all about NetKernel and Resource Oriented Computing go to the [documentation](http://localhost:1060/book/view/book:readme/)
 
+Getting Help
+------------
+
+* [1060 Research](http://www.1060research.com) are here to help you get started
+* Register on the [NetKernel Portal](https://cs.1060research.com/csp/) to access the complementary support
+* From the portal you can also [download](https://cs.1060research.com/csp/download/) free evaluation copies of 1060 NetKernel Enterprise Edition
+* NetKernel Enterprise Edition comes with additional high-end tools and features and has comprehensive SLA and Support packages.
+
 
 NetKernel Gradle Plugin
 -----------------------
