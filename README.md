@@ -66,7 +66,6 @@ Getting Help
 * From the portal you can also [download](https://cs.1060research.com/csp/download/) free evaluation copies of 1060 NetKernel Enterprise Edition
 * NetKernel Enterprise Edition comes with additional high-end tools and features and has comprehensive SLA and Support packages.
 
-
 NetKernel Gradle Plugin
 -----------------------
 
@@ -74,5 +73,7 @@ As well as building a module, there are lots of powerful things you can do with 
 
 A detailed guide is provide [here](http://wiki.netkernel.org/wink/wiki/NetKernel/News/5/12/October_3rd_2014#NetKernel_Gradle_Plugin:_Build_Automation_Tooling_for_ROC)
 
+
+**Let us know how you get on or if you need a hand tweet: @netkernel or #netkernel**
 
 *Last Edited, Peter Rodgers, 2014-12-02*
