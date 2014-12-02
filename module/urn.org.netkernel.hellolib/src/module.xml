@@ -1,0 +1,28 @@
+<module version="2.0">
+	<meta>
+		<identity>
+			<uri>urn:org:netkernel:hellolib</uri>
+			<version>1.1.1</version>
+		</identity>
+		<info>
+			<name>Single Hello World Module with Dynamic Classpath</name>
+			<description>A very simple module to get started</description>
+		</info>
+	</meta>
+	<system>
+		<dynamic/>
+	</system>
+	<rootspace>
+		<!--This connects us to the FrontEnd HTTP Server (using NK's dynamic import hooks)-->
+	    <literal uri="res:/etc/system/SimpleDynamicImportHook.xml" type="xml">
+			<connection>
+				<type>HTTPFulcrum</type>
+			</connection>
+		</literal>
+		<!--Our first hello world resource - request it with HTTP at http://localhost:8080/getting-started/hellolib -->
+		<accessor>
+			<grammar>res:/getting-started/hellolib</grammar>
+			<class>org.netkernel.helloworld.HelloLibAccessor</class>
+		</accessor>
+	</rootspace>
+</module>

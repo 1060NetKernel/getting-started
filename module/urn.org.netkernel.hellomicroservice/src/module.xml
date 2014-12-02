@@ -1,0 +1,36 @@
+<module version="2.0">
+	<meta>
+		<identity>
+			<uri>urn:org:netkernel:hellomicroservice</uri>
+			<version>1.1.1</version>
+		</identity>
+		<info>
+			<name>Hello Micro Service Module</name>
+			<description>A very simple module to provide a symmetrical server/client bridge</description>
+		</info>
+	</meta>
+	<system>
+		<dynamic/>
+	</system>
+	<rootspace>
+		<!--This connects us to the FrontEnd HTTP Server (using NK's dynamic import hooks)-->
+	    <literal uri="res:/etc/system/SimpleDynamicImportHook.xml" type="xml">
+			<connection>
+				<type>HTTPFulcrum</type>
+			</connection>
+		</literal>
+		<!--Our first hello world resource - request it with HTTP at http://localhost:8080/getting-started/uppercase?url=http://www.google.com -->
+		<accessor>
+			<grammar>res:/getting-started/uppercase</grammar>
+			<class>org.netkernel.helloworld.HelloMicroServiceAccessor</class>
+		</accessor>
+
+		<!--Import http client and layer1 tools-->
+		<import>
+			<uri>urn:org:netkernel:client:http</uri>
+		</import>
+		<import>
+			<uri>urn:org:netkernel:ext:layer1</uri>
+		</import>
+	</rootspace>
+</module>
