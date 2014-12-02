@@ -26,6 +26,8 @@ Getting Started with Getting Started
 <code>gradle installNK deployModuleNK startNK</code>
 
 * Congratulations you have your first module installed, try it [here](http://localhost:8080/getting-started/helloworld)
+* NetKernel is running two HTTP servers - one for apps on port 8080 and one for the administration tools on port 1060.  You can explore the NetKernel system at [http://localhost:1060](http://localhost:1060)
+
 * To stop NetKernel...
 
 <code>gradle stopNK</code>
@@ -49,12 +51,13 @@ To start playing with the code in Eclipse...
 
 <code>gradle eclipse</code>
 
-This creates *.project* and *.classpath* files for Eclipse, so now in Eclipse just use **"Import..."** and point to the directory as an Eclipse project.
+This creates *.project* and *.classpath* files for Eclipse, so now in Eclipse just use **"Import... Existing Projects into Workspace..."** and point to the directory as an Eclipse project.
 
 Next Steps with NetKernel
 -------------------------
 
-* We *highly recommend* that you go to the built-in [package manager](http://localhost:1060/tools/apposite/) (referred to as the "Apposite" tool) and accept all updates.
+* Make sure NetKernel is running (ie you can request [http://localhost:1060](http://localhost:1060) with you browser)
+* We *highly recommend* that you go to the [package manager](http://localhost:1060/tools/apposite/) (referred to as the "Apposite" tool) and accept all updates.
 * Click "Select All Updates"
 * Then click "Apply Selections"
 * Wait a few moments for the updates to be downloaded and for NetKernel to hot deploy them.
