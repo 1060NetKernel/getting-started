@@ -42,11 +42,11 @@ You can tell *Gradle* to use an existing copy of NetKernel. Just open **build.gr
 Eclipse
 -------
 
-To start playing with the code in Eclipse run to create Eclipse's .project and .classpath files...
+To start playing with the code in Eclipse...
 
 <code>gradle eclipse</code>
 
-Now in Eclipse just use **"Import..."** and point to the directory as an Eclipse project
+This creates *.project* and *.classpath* files for Eclipse, so now in Eclipse just use **"Import..."** and point to the directory as an Eclipse project.
 
 Next Steps with NetKernel
 -------------------------
@@ -54,7 +54,7 @@ Next Steps with NetKernel
 * We *highly recommend* that you go to the built-in [package manager](http://localhost:1060/tools/apposite/) (referred to as the "Apposite" tool) and accept all updates.
 * Click "Select All Updates"
 * Then click "Apply Selections"
-* Wait a few moments for the updates to be downloaded and for NK to hot deploy.
+* Wait a few moments for the updates to be downloaded and for NetKernel to hot deploy them.
 
 * To start learning all about NetKernel and Resource Oriented Computing go to the [documentation](http://localhost:1060/book/view/book:readme/)
 
@@ -62,7 +62,7 @@ Next Steps with NetKernel
 NetKernel Gradle Plugin
 -----------------------
 
-As well as building a project, there are lots of powerful things you can do with the NetKernel Gradle plugin.
+As well as building a module, there are lots of powerful things you can do with the NetKernel Gradle plugin.
 
 A detailed guide is provide [here](http://wiki.netkernel.org/wink/wiki/NetKernel/News/5/12/October_3rd_2014#NetKernel_Gradle_Plugin:_Build_Automation_Tooling_for_ROC)
 
