@@ -13,7 +13,7 @@ buildscript {
     }
 
 	dependencies {
-    	classpath group: 'urn.org.netkernel', name: 'gradle.plugin', version: '[1.1.4,)'
+    	classpath group: 'urn.org.netkernel', name: 'gradle.plugin', version: '[1.1.19,)'
 	}
 }
 
@@ -44,7 +44,7 @@ netkernel {
     	NK
         {
             edition = "SE"
-            location = "../NKSE-5.2.1/"		//Specifies a copy of NetKernel to be located relative to this project
+            location = "../NKSE-5.2.1"		//Specifies a copy of NetKernel to be located relative to this project
             
             								//If you already have NK installed change "location" to the directory
             								//where you installed it (keep the trailing slash)
