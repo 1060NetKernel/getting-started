@@ -1,6 +1,7 @@
 //Apply the NetKernel plugin
 apply plugin: 'netkernel'
 apply plugin: 'eclipse'
+apply plugin: 'idea'
 
 //Provide this buildscript with repositories and dependencies to obtain the netkernel plugin
 buildscript {
@@ -13,7 +14,7 @@ buildscript {
     }
 
 	dependencies {
-    	classpath group: 'urn.org.netkernel', name: 'gradle.plugin', version: '[1.1.19,)'
+    	classpath group: 'urn.org.netkernel', name: 'gradle.plugin', version: '[1.1.25,)'
 	}
 }
 
@@ -21,7 +22,7 @@ netkernel {
 	///////////////////
 	//Configuration for the netkernel plugin tasks goes here...
 	///////////////////
-	
+
 	//Add the Maven Central respository for compile time dependency resolution
     useMavenCentral()
 
@@ -30,28 +31,28 @@ netkernel {
 
 	//Add the core NetKernel libraries as compile time dependencies
     useStandardCompileDependencies()
-    
+
     //If you've not got a copy of NetKernel specify the edition and optionally (for EE) add your portal credentials..
     download {
         edition = "SE"  //or SE
         username = "foo"
         password = "baa"
     }
-        
+
     //Specify our NetKernel instance(s) for installation, module deployment and management tasks etc
     instances {
-    	
+
     	NK
         {
             edition = "SE"
-            location = "../NKSE-5.2.1/"		//Specifies a copy of NetKernel to be located relative to this project
-            
+            location = "../NKSE-6.1.1/"		//Specifies a copy of NetKernel to be located relative to this project
+
             								//If you already have NK installed change "location" to the directory
             								//where you installed it (keep the trailing slash)
         }
-        
+
         /**
-        If you want/have Enterprise Edition then set edition to "EE" like this 
+        If you want/have Enterprise Edition then set edition to "EE" like this
         NK
         {
             edition = "EE"
