@@ -45,7 +45,7 @@ netkernel {
     	NK
         {
             edition = "SE"
-            location = "../NKSE-6.1.1"		//Specifies a copy of NetKernel to be located relative to this project
+            location = "../NKSE-6.2.1"		//Specifies a copy of NetKernel to be located relative to this project
 
             								//If you already have NK installed change "location" to the directory
             								//where you installed it (keep the trailing slash)
