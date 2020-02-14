@@ -1,12 +1,12 @@
 getting-started
 ===============
 
-A repository with some modules to show how to get started with [NetKernel](http://www.1060research.com/netkernel/)
+A repository with some modules to show how to get started with [NetKernel](http://www.1060research.com/netkernel/) Standard Edition.
 
 Requirements
 ------------
 
-All you need is a copy of [gradle](http://gradle.org/)
+All you need is a copy of [gradle](http://gradle.org/) pre-installed.
 
 Getting Started with Getting Started
 ------------------------------------
@@ -69,7 +69,7 @@ Getting Help
 
 * [1060 Research](http://www.1060research.com) are here to help you get started
 * Register on the [NetKernel Portal](https://cs.1060research.com/csp/) to access the complementary support
-* From the portal you can also [download](https://cs.1060research.com/csp/download/) free evaluation copies of 1060 NetKernel Enterprise Edition
+* From the portal you can also [download](https://cs.1060research.com/csp/download/) evaluation copies of 1060 NetKernel Enterprise Edition
 * NetKernel Enterprise Edition comes with additional high-end tools and features and has comprehensive SLA and Support packages.
 
 NetKernel Gradle Plugin
@@ -81,5 +81,3 @@ A detailed guide is provide [here](http://wiki.netkernel.org/wink/wiki/NetKernel
 
 
 **Let us know how you get on or if you need a hand tweet: @netkernel or #netkernel**
-
-*Last Edited, Peter Rodgers, 2014-12-02*
